@@ -17,5 +17,11 @@ numero2 = 7
 resultado = numero1 + numero2
 print(resultado)
 
-final = nombre + str(numero2) 
+final = nombre + " " + str(numero2) 
 print(final)
+
+print(f"Hola {nombre}, cunatos años tiene? {numero2}")
+
+print("Erick" in final)
+print("mesa" in final)
+print("i" in "bienvenida")
